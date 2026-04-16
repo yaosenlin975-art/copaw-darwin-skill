@@ -1,0 +1,15 @@
+﻿timestamp	skill	old_score	new_score	status	dimension	note
+2026-04-15T09:30:00	plans-driver	-	69	baseline	structure	初始基线评估
+2026-04-15T09:45:00	plans-driver	69	85	keep	边界条件	添加6种边界条件处理场景
+2026-04-15T09:50:00	plans-driver	85	89	keep	检查点设计	添加5个关键检查点(CP1-CP5)
+2026-04-15T09:55:00	plans-driver	89	92	keep	工作流清晰度	细化汇报进度解析逻辑
+2026-04-15T10:00:00	plans-driver	92	94	keep	整体架构	精简时间预估，添加快速参考
+2026-04-15T10:30:00	interview-coach	-	77	baseline	structure	简化版基线评估（原版1500+行不适合CoPaw）
+2026-04-15T10:35:00	interview-coach	77	82	keep	frontmatter	添加CoPaw标准metadata和触发词
+2026-04-15T10:40:00	interview-coach	82	89	keep	检查点	添加8个关键检查点(CP1-CP8)
+2026-04-15T09:44:22	plans-driver	86.8	87.5	keep	检查点设计	添加回滚策略和用户提示
+2026-04-15T09:45:37	plans-driver	87.0	87.5	keep	资源整合度	添加资源引用示例和搜索关键词模板
+2026-04-15T09:46:04	plans-driver	87.5	89.0	keep	指令具体性	添加搜索结果数量、超时时间、语言优先级等具体参数
+2026-04-15T09:46:20	plans-driver	89.0	89.5	keep	实测表现	添加实测评估指南，指导如何评估输出质量
+2026-04-15T09:47:36	plans-driver	89.5	91.75	keep	性能与用户体验	添加搜索结果缓存、异步搜索、个性化推荐等优化策略
+2026-04-15T09:48:34	plans-driver	91.75	92.175	keep	实测表现	实测验证3个测试prompt，平均分8.67，输出质量良好
